@@ -1,0 +1,7 @@
+Task1: mvn exec:java -Dexec.mainClass="org.example.XMLToJSONConverter" -Dexec.args="1 src/main/resources/smallsample.xml"
+Task2: mvn exec:java -Dexec.mainClass="org.example.XMLToJSONConverter" -Dexec.args="2 src/main/resources/smallsample.xml /catalog/book/0"
+Task3: 
+mvn exec:java -Dexec.mainClass="org.example.XMLToJSONConverter" -Dexec.args="3 src/main/resources/smallsample.xml /catalog/book/0/author"   //found
+mvn exec:java -Dexec.mainClass="org.example.XMLToJSONConverter" -Dexec.args="3 src/main/resources/smallsample.xml /catalog/magazine"        //Not Found
+Task4: mvn exec:java -Dexec.mainClass="org.example.XMLToJSONConverter" -Dexec.args="4 src/main/resources/smallsample.xml"
+Task5: mvn exec:java -Dexec.mainClass="org.example.XMLToJSONConverter" -Dexec.args="5 src/main/resources/smallsample.xml /catalog/book/2"
